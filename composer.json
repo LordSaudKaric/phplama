@@ -1,0 +1,23 @@
+{
+  "name": "lordsaudkaric/phplama",
+  "description": "PhpLama light framework for building web apps",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "LordSaudKaric",
+      "email": "saud-karic@hotmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.1",
+    "lordsaudkaric/phplamacore": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": ["helper/functions.php"]
+  }
+}
